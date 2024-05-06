@@ -1,0 +1,178 @@
+button.link-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  display: inline;
+  text-decoration: none;
+}
+
+.link-button:hover,
+.link-button:focus {
+  text-decoration: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button:hover,
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.rc-pagination-item:hover,
+.btn.closeX:hover {
+  transform: scale(1.5);
+}
+
+nav li:hover {
+  background: linear-gradient(#212529, gray);
+  border-radius: 10%;
+}
+
+input:hover {
+  border-color: gray;
+}
+
+.templateCard:hover {
+  transform: scale(1.05);
+}
+
+.card .card-text,
+.card .card-subtitle {
+  overflow: hidden;
+  text-wrap: nowrap;
+  text-overflow: ellipsis;
+}
+
+#body-container.body-events {
+  display: grid;
+}
+
+#events-container {
+  justify-self: center;
+  max-width: 80em;
+  width: 98vw;
+
+  display: grid;
+  grid-gap: 1em;
+  grid-template-areas:
+    "main main sideT"
+    "main main sideB"
+    "main main sideB";
+
+  grid-template-rows: 0.3fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* ----------------------- Events -------------------------- -- */
+
+#main-event-container {
+  grid-area: main;
+}
+
+.event-main {
+  border: solid;
+  border-color: #eeee;
+
+  padding: 1em;
+  margin-bottom: 1em;
+  /* grid-area: main; */
+
+  display: grid;
+  grid-gap: 1em;
+  grid-template-areas:
+    "headerL headerR"
+    "map address";
+
+  grid-template-columns: 1fr 1fr;
+}
+
+.fa-file-pdf-o {
+  display: flex;
+  float: left;
+}
+
+.carousel-container {
+  background-color: gray;
+}
+
+.main-header {
+  grid-area: headerL;
+  text-align: center;
+}
+
+.main-body {
+  grid-area: headerR;
+  text-align: justify;
+  padding-top: 2em;
+}
+
+.map-container {
+  grid-area: map;
+}
+
+.map-address {
+  grid-area: address;
+}
+
+#event-sideT {
+  grid-area: sideT;
+}
+
+#emailTriggerBtn {
+  width: max-content;
+  display: flex;
+  justify-self: center;
+  box-shadow: 0px 4px 12px darkgray;
+}
+
+#emailIcon {
+  color: #eeee;
+  font-size: x-large;
+}
+
+#event-sideB {
+  border: solid;
+  border-color: #eeee;
+  padding: 1em;
+  height: 98.5%;
+
+  grid-area: sideB;
+}
+.searchEvent {
+  margin-right: 0.5em;
+}
+
+.upcoming-events {
+  border-bottom: solid;
+  border-color: #eeee;
+  padding: 1em 0em;
+}
+
+.eventSide-title {
+  margin-top: 1em;
+  display: inline-flex;
+  border-bottom: solid;
+  border-color: #eeee;
+  padding-bottom: 0.24em;
+}
+
+#upcoming-btn {
+  float: right;
+}
+
+#event-infoBtn {
+  text-align: right;
+}
+
+.eventImage {
+  width: 25em;
+  height: 15em;
+}
