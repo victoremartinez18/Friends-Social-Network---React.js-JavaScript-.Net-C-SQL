@@ -1,5 +1,4 @@
 # Friends-Social-Network---React.js-JavaScript-.Net-C-SQL
-<<<<<<< HEAD
 =======
 
 ## Friendlist Management Tool
