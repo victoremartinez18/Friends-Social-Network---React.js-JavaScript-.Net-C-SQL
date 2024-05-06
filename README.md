@@ -5,6 +5,8 @@
 
 This repository features a full stack implementation for a Friendlist management tool. It serves as a demonstration of a system designed to view and manage a simulated friend list.
 
+https://github.com/victoremartinez18/Friends-Social-Network---React.js-JavaScript-.Net-C-SQL/assets/123347550/44a3ad5e-9020-4934-ba70-bef511ceff55
+
 ### Features:
 
 - **SQL Procedures** 💾: The repository includes various versions of SQL procedures, enabling data insertion across multiple tables, leveraging user-defined tables.
@@ -18,4 +20,3 @@ This repository features a full stack implementation for a Friendlist management
 - **Pagination** 📄: Customizable pagination ensures easy navigation through the friend list, accommodating any desired number of friends.
 
 - **API Controller and Classes** 🖥️: Implemented using .NET and C#, the repository establishes API controllers and classes to facilitate communication between the front end and the database.
->>>>>>> e02915c2a341ffe9a77110eb082f7fb16e1adc72
