@@ -1,9 +1,4 @@
-﻿using Sabio.Models;
-using Sabio.Models.Domain.Friends;
-using Sabio.Models.Requests.Friends;
-using System.Collections.Generic;
 
-namespace Sabio.Services.Interfaces
 {
     public interface IFriendService
     {
