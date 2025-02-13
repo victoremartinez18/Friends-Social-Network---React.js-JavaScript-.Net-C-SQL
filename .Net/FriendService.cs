@@ -1,20 +1,4 @@
-﻿using Sabio.Data;
-using Sabio.Data.Providers;
-using Sabio.Models;
-using Sabio.Models.Domain.Friends;
-using Sabio.Models.Domain.Users;
-using Sabio.Models.Requests.Friends;
-using Sabio.Services.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
-namespace Sabio.Services
 {
 
     public class FriendService : IFriendService
