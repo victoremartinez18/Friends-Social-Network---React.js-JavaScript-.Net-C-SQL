@@ -1,16 +1,4 @@
-﻿using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Sabio.Data;
-using Sabio.Services;
-using Sabio.Services.CodingChallenge;
-using Sabio.Services.Interfaces;
-using Sabio.Web.Core.Services;
-using System;
 
-namespace Sabio.Web.StartUp
 {
     public class DependencyInjection
     {
@@ -36,7 +24,7 @@ namespace Sabio.Web.StartUp
 
             services.AddSingleton<IAuthenticationService<int>, WebAuthenticationService>();
 
-            services.AddSingleton<Sabio.Data.Providers.IDataProvider, SqlDataProvider>(delegate (IServiceProvider provider)
+            services.AddSingleton<Data.Providers.IDataProvider, SqlDataProvider>(delegate (IServiceProvider provider)
             {
                 return new SqlDataProvider(connString);
             }
